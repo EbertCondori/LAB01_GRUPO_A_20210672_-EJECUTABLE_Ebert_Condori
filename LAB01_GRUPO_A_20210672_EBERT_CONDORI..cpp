@@ -1,3 +1,5 @@
+NOMBRE: Ebert luis Condori Casquino
+CUI: 20210672
 #include <iostream>
 using namespace std;
 /*
@@ -17,7 +19,7 @@ int main(int argc, char *argv[]) {
 */
 
 /*
-//2.Escriba un código que solicite al usuario ingresar dos números enteros y que muestre
+//2.Escriba un cÃ³digo que solicite al usuario ingresar dos nÃºmeros enteros y que muestre
 //el producto de ambos.
 int main(int argc, char *argv[]) {
 	int a,b,c;
@@ -33,10 +35,11 @@ int main(int argc, char *argv[]) {
 }
 */
 /*
-//3.Escriba un código que solicite el primer nombre de una persona, el apellido paterno
+//3.Escriba un cÃ³digo que solicite el primer nombre de una persona, el apellido paterno
 //y el apellido materno. Retornar su correo UNSA generado, el cual consiste de la
 //primera letra del nombre, el apellido paterno completo, y la primera letra del apellido
-//materno. (se agrega el dominio de la universidad al final).
+//materno. (se agrega el dominio de la universidad al final).
+
 int main(int argc, char *argv[]) {
 	
 	
@@ -58,7 +61,7 @@ int main(int argc, char *argv[]) {
 
 
 /*
-//4.Calcule los primeros 50 números primos y muestre el resultado en pantalla.
+//4.Calcule los primeros 50 nÃºmeros primos y muestre el resultado en pantalla.
 int divi(int a){
 	
 	int cont;
@@ -86,8 +89,9 @@ int main(int argc, char *argv[]) {
 */
 
 /*
-//5.Escribir un programa que visualice en pantalla los números múltiplos de 5
-//comprendidos entre 1 y 100.
+//5.Escribir un programa que visualice en pantalla los nÃºmeros mÃºltiplos de 5
+//comprendidos entre 1 y 100.
+
 int main(int argc, char *argv[]) {
 	
 	for(int i=0;i<100;i++){
@@ -102,9 +106,10 @@ int main(int argc, char *argv[]) {
 
 
 /*
-//6. Escriba un código que solicite ingresar dos números ?? y ??, tal que ?? < ??. Muestre
-//todos los números primos que se encuentren entre el rango de valores, de no
-//encontrarse, mostrar el primo más cercano a ?? o ??.
+//6. Escriba un cÃ³digo que solicite ingresar dos nÃºmeros ?? y ??, tal que ?? < ??. Muestre
+//todos los nÃºmeros primos que se encuentren entre el rango de valores, de no
+//encontrarse, mostrar el primo mÃ¡s cercano a ?? o ??.
+
 int divi(int a){
 	
 	int cont;
@@ -134,9 +139,9 @@ int divi(int a){
 
 */
 /*
-//7.Elabore un programa que solicite ingresar una hora del día (HH:MM en formato de
-//cadena), solicite un tiempo en minutos a agregar, y retorne la hora de finalización (el
-//formato de salida debe de estar en AM o PM según corresponda).
+//7.Elabore un programa que solicite ingresar una hora del dÃ­a (HH:MM en formato de
+//cadena), solicite un tiempo en minutos a agregar, y retorne la hora de finalizaciÃ³n (el
+//formato de salida debe de estar en AM o PM segÃºn corresponda).
 int main(int argc, char *argv[]) {
 	int a;
 	int b;
@@ -160,8 +165,8 @@ int main(int argc, char *argv[]) {
 
 
 /*
-//9.Elabore un código que reciba como entrada una secuencia de caracteres que contiene
-//un numero flotante y retorne el número redondeado.
+//9.Elabore un cÃ³digo que reciba como entrada una secuencia de caracteres que contiene
+//un numero flotante y retorne el nÃºmero redondeado.
 int main(int argc, char *argv[]) {
 	int a;
 	float b;
@@ -176,7 +181,7 @@ int main(int argc, char *argv[]) {
 }
 */
 /*
-//10.Elabore un código que solicite un numero entre 100 < x < 999 y muestre el resultado
+//10.Elabore un cÃ³digo que solicite un numero entre 100 < x < 999 y muestre el resultado
 //en binario
 #include <bitset>
 
@@ -197,8 +202,8 @@ return 0;
 */
 
 /*
-//11. Elabore un programa que lea n números y determine cuál es el mayor, el menor y la
-//media de los números leídos.
+//11. Elabore un programa que lea n nÃºmeros y determine cuÃ¡l es el mayor, el menor y la
+//media de los nÃºmeros leÃ­dos.
 int main(int argc, char *argv[]) {
 	int a;
 	int b;
@@ -218,8 +223,8 @@ int main(int argc, char *argv[]) {
 
 /*
 //12.Elabore un programa que calcule la serie de Fibonacci. La serie de Fibonacci es la
-//sucesión de números: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ... Cada número se calcula sumando
-//los dos anteriores a él.
+//sucesiÃ³n de nÃºmeros: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ... Cada nÃºmero se calcula sumando
+//los dos anteriores a Ã©l.
 int fibo(int a){
 	if(a < 2)
 		return a;
@@ -238,8 +243,9 @@ int fibo(int a){
 
 
 /*
-//13.Elabore un algoritmo que lea por teclado dos números enteros y determine si uno es
-//divisor del otro.
+//13.Elabore un algoritmo que lea por teclado dos nÃºmeros enteros y determine si uno es
+//divisor del otro.
+
 int main(int argc, char *argv[]) {
 	int a;
 	int b;
@@ -259,7 +265,8 @@ int main(int argc, char *argv[]) {
 }
 */
 /*
-//14.Calcula el promedio de 3 notas para n estudiantes.
+//14.Calcula el promedio de 3 notas para n estudiantes.
+
 int main(int argc, char *argv[]) {
 	int a;
 	int b;
@@ -275,8 +282,9 @@ int main(int argc, char *argv[]) {
 
 */
 /*
-//15.Escribir un programa que genere la tabla de multiplicar de un número introducido por
-//el teclado.
+//15.Escribir un programa que genere la tabla de multiplicar de un nÃºmero introducido por
+//el teclado.
+
 int main(int argc, char *argv[]) {
 	int a;
 	cout<<"ingrese la tabla del numero deseado"<<endl;
@@ -288,7 +296,7 @@ int main(int argc, char *argv[]) {
 }
 */
 /*
-//16.Escribir un programa que calcule la media de x cantidad números introducidos por el
+//16.Escribir un programa que calcule la media de x cantidad nÃºmeros introducidos por el
 //teclado.
 int main(int argc, char *argv[]) {
 	int a[100];
@@ -304,7 +312,7 @@ int main(int argc, char *argv[]) {
 */
 
 /*
-//17.Escribir un programa que lea 10 datos desde el teclado y sume sólo aquellos que sean
+//17.Escribir un programa que lea 10 datos desde el teclado y sume sÃ³lo aquellos que sean
 //negativos.
 int main(int argc, char *argv[]) {
 	int a[10];
@@ -328,8 +336,8 @@ int main(int argc, char *argv[]) {
 */
 
 /*
-//18.Escribir un programa que pida al usuario un número entero y muestre por pantalla un
-//triángulo rectángulo como el de más abajo, de altura el número introducido.
+//18.Escribir un programa que pida al usuario un nÃºmero entero y muestre por pantalla un
+//triÃ¡ngulo rectÃ¡ngulo como el de mÃ¡s abajo, de altura el nÃºmero introducido.
 int main(int argc, char *argv[]) {
 	int a;
 	cout<<"INGRESE NUMERO ENTERO? "<<endl;
@@ -347,16 +355,17 @@ int main(int argc, char *argv[]) {
 */
 
 /*
-//19.. Escribir un programa que almacene la cadena de caracteres contraseña en una
-//variable, pregunte al usuario por la contraseña hasta que introduzca la contraseña
-//correcta.
+//19.. Escribir un programa que almacene la cadena de caracteres contraseÃ±a en una
+//variable, pregunte al usuario por la contraseÃ±a hasta que introduzca la contraseÃ±a
+//correcta.
+
 int main(int argc, char *argv[]) {
 	char a[20];
 	char b[20]="a";
-	cout<<"INGRESE LA CONTRASEñA? "<<endl;
+	cout<<"INGRESE LA CONTRASEÃ±A? "<<endl;
 	cin>>a;
 	while(a!=b){
-		cout<<"INGRESE LA CONTRASEñA CORRECTA? "<<endl;
+		cout<<"INGRESE LA CONTRASEÃ±A CORRECTA? "<<endl;
 		cin>>a;
 	}
 
@@ -366,7 +375,8 @@ int main(int argc, char *argv[]) {
 
 /*
 //20.Escribir un programa que pida al usuario una palabra y luego muestre por pantalla
-//una a una las letras de la palabra introducida empezando por la última.
+//una a una las letras de la palabra introducida empezando por la Ãºltima.
+
 int main(int argc, char *argv[]) {
 	char a[5];
 	cout<<"ingre una palabra? "<<endl;
