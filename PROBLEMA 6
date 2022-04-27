@@ -1,0 +1,20 @@
+/*
+6. Elabore un código que solicite un numero entre 100 < x < 999 y muestre el resultado en
+binario.
+*/
+
+#include <iostream>
+#include <bitset>
+using namespace std;
+int main(int argc, char *argv[]) {
+int a;
+cout<<"INGRESE UN NUMERO entre 100 AL 999"<<endl;
+cin>>a;
+while(a<100 || a>999){
+cout<<"ingrese un numero entre 100 al 999"<<endl;
+cin>>a;
+}
+bitset<10> bina(a);
+cout<<"NUMERO EN BINARI? "<<bina;
+return 0;
+}
