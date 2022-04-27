@@ -1,0 +1,20 @@
+/*
+4. Escriba un código que solicite una cantidad de minutos específica y muestre como
+resultado la hora y fecha resultante tomando como referencia la hora y fecha actual y
+restarle el tiempo indicado.
+*/
+
+include <iostream>
+using namespace std;
+int main(int argc, char *argv[]) {
+int a=0;
+int c,d;
+cout<<"INGRESE MINUTOS TOTALES"<<endl;
+cin>>c;
+while(c>=60){
+a=a+1;
+c=c-60;
+}
+cout<<"hora actual seria "<<a<<" : "<<c;
+return 0;
+}
