@@ -1,0 +1,16 @@
+/*
+5. Elabore un código que reciba como entrada una secuencia de caracteres que contiene un
+numero flotante y retorne el número redondeado.
+*/
+
+#include <iostream>
+using namespace std;
+int main(int argc, char *argv[]) {
+int a;
+float b;
+cout<<"ingrese nuemro flotante"<<endl;
+cin>>b;
+a=b;
+cout<<"resultado "<<a;
+return 0;
+}
