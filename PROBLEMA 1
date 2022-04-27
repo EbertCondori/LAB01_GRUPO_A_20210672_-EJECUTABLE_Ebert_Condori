@@ -1,0 +1,16 @@
+/*
+1. Escriba un código que solicite al usuario ingresar dos números enteros y que muestre el
+producto de ambos.
+*/
+
+#include <iostream>
+using namespace std;
+int main(int argc, char *argv[]) {
+int a,b,c;
+cout<<"ingrese 2 numeros enteros"<<endl;
+cin>>a>>b;
+c=a*b;
+cout<<"resultado del porducto de ambos = "<<c;
+
+return 0;
+}
