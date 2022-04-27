@@ -1,0 +1,21 @@
+2. Escriba un código que solicite el primer nombre de una persona, el apellido paterno y el
+apellido materno. Retornar su correo UNSA generado, el cual consiste de la primera letra
+del nombre, el apellido paterno completo, y la primera letra del apellido materno. (se agrega
+el dominio de la universidad al final).
+
+#include <iostream>
+using namespace std;
+
+int main(int argc, char *argv[]) {
+char a[20];
+char b[20];
+char c[20];
+cout<<"ingrese su primer nombre nombre "<<endl;
+cin>>a;
+cout<<"ingrese apellido paterno "<<endl;
+cin>>b;
+cout<<"ingrese apellido materno "<<endl;
+cin>>c;
+cout<<"correo unsa generado? "<<a[0]<<b<<c[0]<<"@unsa.edu.pe"<<endl;
+return 0;
+}
